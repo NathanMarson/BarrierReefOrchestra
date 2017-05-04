@@ -1,0 +1,64 @@
+/* background colour for the navbar */
+.topnav {
+    background-color: #3680e2;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* navbar blocks */
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+}
+
+/* Change the colour of navbar when hovering */
+.topnav a:hover {
+    background: #46a7e2;
+    color: #ffffff;
+}
+
+/* Adds colour to the active page on the navbar  */
+.active {
+    background: #46a7e2;
+    color: #ffffff;
+}
+
+/* the side navbar*/
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.sideActive {
+    background-color: #3680e2;
+    color: white;
+}
+
+li a:hover:not(.sideActive) {
+    background-color: #3680e2;
+    color: white;
+}
