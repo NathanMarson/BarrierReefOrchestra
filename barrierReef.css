@@ -73,9 +73,14 @@ li a:hover {
 
 .centredPage{
     margin-left:25%;
+    margin-right:25%;
     padding:1px 16px;
 }
 
 .italics {
     font-style: italic;
 }
+
+.regular {
+    margin: 10px;
+    width: 40%
