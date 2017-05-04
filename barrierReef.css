@@ -3,6 +3,7 @@
     background-color: #3680e2;
     overflow: hidden;
     width: 100%;
+    padding-left: 20%;
 }
 
 /* navbar blocks */
@@ -16,6 +17,7 @@
     font-size: 17px;
     font-family: 'Oswald',sans-serif;
     font-weight: bold;
+
 }
 
 /* Change the colour of navbar when hovering */
@@ -35,7 +37,7 @@ body {
     margin: 0;
 }
 
-ul {
+.sideNavbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -58,7 +60,22 @@ li a.sideActive {
     color: white;
 }
 
-li a:hover:not(.sideActive) {
+li a:hover {
+    text-decoration: underline;
+}
+
+/*li a:hover:not(.sideActive) {
+    text-decoration: underline;
     background-color: #3680e2;
     color: white;
+}
+*/
+
+.centredPage{
+    margin-left:25%;
+    padding:1px 16px;
+}
+
+.italics {
+    font-style: italic;
 }
