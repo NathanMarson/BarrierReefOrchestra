@@ -2,6 +2,8 @@
 .topnav {
     background-color: #3680e2;
     overflow: hidden;
+    position: fixed;
+    top:0;
     width: 100%;
     padding-left: 20%;
 }
@@ -39,7 +41,7 @@ body {
 
 .sideNavbar {
     list-style-type: none;
-    margin: 0;
+    margin-top: 48px;
     padding: 0;
     width: 25%;
     background-color: #f1f1f1;
@@ -70,6 +72,12 @@ li a:hover {
     color: white;
 }
 */
+
+.botNavbar {
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
 
 .centredPage{
     margin-left:25%;
