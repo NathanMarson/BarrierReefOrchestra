@@ -101,3 +101,13 @@ li a:hover {
     clear: left;
     text-align: center;
 }*/
+
+.banner{
+    text-align:center;
+    width:100%;
+    background-color:black;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
