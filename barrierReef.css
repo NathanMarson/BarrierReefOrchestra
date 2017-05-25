@@ -94,9 +94,12 @@ li a:hover {
     float: right;
 }
 
-/*footer {
-    padding: 1em;
-    color: white;
+/*.foooter {
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding-left: 20%;
     background-color: #3680e2;
     clear: left;
     text-align: center;
@@ -119,3 +122,18 @@ li a:hover {
 .indented{
     padding-left:50px;
 }
+
+
+
+
+
+
+
+/* A Test */
+.floated_img{
+    display: inline-block;
+    width: 200%;
+    height: 200%;
+}
+
+
