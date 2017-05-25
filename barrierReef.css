@@ -143,33 +143,28 @@ li a:hover {
 
 
 /* Experimental CSS for Contact and Sponsor */
-/* Hidden for now, css for the form may screw with yours nathan, so itll stay hidden for now, the sponsor page is just me checking stuff.
+/* Hidden for now, css for the form may screw with yours nathan, so itll stay hidden for now, the sponsor page is just me checking stuff. */
 
 .floated_img{
     display: inline-block;
     width: 200%;
     height: 200%;
 }
-
+/*Contact us page CSS, Form and fontstyles*/
 .contact {
     text-align: left;
     text-decoration: none;
     font-size: 13px;
     font-family: 'Oswald',sans-serif;
     font-weight: bold;
-}
 
-input[type=text] {
+}
+.contactForm {
     padding: 8px 18px;
     margin: 4px 0;
-    border: 1px solid #ccc;
+
     border-radius: 6px;
-}
-input[type=submit]{
-    padding: 4px 12px;
-    margin: 4px 0;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    width: 300px;
 }
 textarea {
     padding: 8px 18px;
@@ -185,7 +180,7 @@ textarea {
     font-weight: bold;
     color: #46a7e2;
 }
-*/
+
 
 /* Footerbar CSS */
 html, body{
@@ -205,6 +200,7 @@ html, body{
     text-align: center;
     color: white;
     padding: 5px;
+
 }
 
 input[type=text], select {
