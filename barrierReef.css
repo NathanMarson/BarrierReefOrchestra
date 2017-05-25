@@ -1,3 +1,21 @@
+/* centre color for the website, using the html body was the only way i could figure out to make it work*/
+html, body{
+    height: 95%;
+}
+
+.main {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+
+
 /* background colour for the navbar */
 .topnav {
     background-color: #3680e2;
