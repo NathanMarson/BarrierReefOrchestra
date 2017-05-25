@@ -1,20 +1,14 @@
 /* centre color for the website, using the html body was the only way i could figure out to make it work*/
-html, body{
-    height: 95%;
-}
-
 .main {
     margin: auto;
-    width: 90%;
+    width: 80%;
     height: 100%;
-    background: #f2f2f2;
+    background: #f8f8f8;
     padding: 20px;
     box-sizing: border-box;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 
 }
-
-
 
 /* background colour for the navbar */
 .topnav {
@@ -193,6 +187,25 @@ textarea {
 }
 */
 
+/* Footerbar CSS */
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+.footer, .push {
+    height: 50px;
+}
+
+.footer{
+    background-color: #3680e2;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
 
 input[type=text], select {
     width: 100%;
@@ -244,3 +257,4 @@ input[type=submit]:hover {
     margin-top:20px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
+
