@@ -9,13 +9,13 @@ var Pic = new Array(); // don't touch this
 // to add more images, just continue
 // the pattern, adding to the array below
 
-Pic[0] = 'background_bro_01.jpg';
-Pic[1] = 'background_bro_02.jpg';
-Pic[2] = 'background_bro_04.jpg';
-Pic[3] = 'background_bro_05.jpg';
-Pic[4] = 'background_bro_06.jpg';
-Pic[5] = 'background_bro_07.jpg';
-Pic[6] = 'background_bro_08.jpg';
+Pic[0] = 'background_bro_01.jpeg';
+Pic[1] = 'background_bro_02.jpeg';
+Pic[2] = 'background_bro_04.jpeg';
+Pic[3] = 'background_bro_05.jpeg';
+Pic[4] = 'background_bro_06.jpeg';
+Pic[5] = 'background_bro_07.jpeg';
+Pic[6] = 'background_bro_08.jpeg';
 
 
 // =======================================
