@@ -80,7 +80,6 @@ li a:hover {
 
 .centredPage{
     margin-left:25%;
-    margin-right:25%;
     margin-top:32px;
     padding:1px 16px;
 }
@@ -91,7 +90,8 @@ li a:hover {
 
 .regular {
     margin: 10px;
-    width: 40%
+    width: 30%;
+    float: right;
 }
 
 /*footer {
@@ -110,4 +110,12 @@ li a:hover {
     padding-bottom:50px;
     margin-top:50px;
     margin-bottom:50px;
+}
+
+.centreText{
+    margin-right:30%;
+}
+
+.indented{
+    padding-left:50px;
 }
