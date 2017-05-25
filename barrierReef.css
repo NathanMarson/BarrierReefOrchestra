@@ -138,8 +138,14 @@ li a:hover {
 
 .floated_img{
     display: inline-block;
-    width: 200%;
-    height: 200%;
+    width: 50%;
+    height: 50%;
+    }
+.resize{
+    display: inline-block;
+    width: 5%;
+    height: 5%;
+    position: absolute;
 }
 /*Contact us page CSS, Form and fontstyles*/
 .contact {
