@@ -129,11 +129,47 @@ li a:hover {
 
 
 
-/* A Test */
+/* Experimental CSS for Contact and Sponsor */
+/* Hidden for now, css for the form may screw with yours nathan, so itll stay hidden for now, the sponsor page is just me checking stuff.
+
 .floated_img{
     display: inline-block;
     width: 200%;
     height: 200%;
 }
 
+.contact {
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+}
 
+input[type=text] {
+    padding: 8px 18px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+input[type=submit]{
+    padding: 4px 12px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+textarea {
+    padding: 8px 18px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.formHeader {
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+    color: #46a7e2;
+}
+*/
