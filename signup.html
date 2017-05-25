@@ -3,8 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>Become a Member</title>
+    <link href="barrierReef.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<h1 class="title">Membership Application North Queensland Ensembles Inc.</h1>
+<div class="signup">
+    <form action="thanks.html">
+        <label for="day">Membership Type</label>
+        <select id="day" name="day">
+            <option value="select">Select</option>
+            <option value="renew">Renew Membership</option>
+            <option value="new">New Membership</option>
+        </select>
+        <select id="day" name="day">
+            <option value="select">Select</option>
+            <option value="adult">Adult</option>
+            <option value="family">Family</option>
+            <option value="student">Student</option>
+            <option value="concession">Concession</option>
+        </select>
+
+        <p>Applicant Details:</p>
+
+        <label for="day">Title</label>
+        <select id="day" name="day">
+            <option value="select">Select</option>
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Miss">Miss</option>
+            <option value="Ms">Ms</option>
+            <option value="Master">Master</option>
+            <option value="Dr">Dr</option>
+        </select>
+
+        <label for="fname">Given Names</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <p>Children of family membership:</p>
+
+
+        <label>Child 1</label>
+        <input class="halfLine" type="text" id="lname" name="name" placeholder="Child's name...">
+        <label>Date of Birth</label>
+        <input class="halfLine" type="text" id="lname" name="dob" placeholder="Child's date of birth..."><br>
+
+        <label>Child 2</label>
+        <input class="halfLine" type="text" id="lname" name="name" placeholder="Child's name...">
+        <label>Date of Birth</label>
+        <input class="halfLine" type="text" id="lname" name="dob" placeholder="Child's date of birth..."><br>
+
+        <label>Child 3</label>
+        <input class="halfLine" type="text" id="lname" name="name" placeholder="Child's name...">
+        <label>Date of Birth</label>
+        <input class="halfLine" type="text" id="lname" name="dob" placeholder="Child's date of birth..."><br>
+
+        <label for="number">Address</label>
+        <input type="text" id="number" name="phonenumber" placeholder="Your address..">
+        <label for="number">Post Code</label>
+        <input type="text" id="number" name="phonenumber" placeholder="Your post code..">
+        <label for="number">Phone Number</label>
+        <input type="text" id="number" name="phonenumber" placeholder="Your phone number..">
+        <label for="number">Mobile Number</label>
+        <input type="text" id="number" name="phonenumber" placeholder="Your mobile number..">
+        <label for="number">Email Address</label>
+        <input type="text" id="number" name="phonenumber" placeholder="Your email address..">
+
+        <p>Membership Fees:</p>
+        <ul>
+            <li class="bold">Adult: $30</li>
+            <li class="bold">Family: $60</li>
+            <li class="bold">Full Time Student: $15</li>
+            <li class="bold">Under 18: $15</li>
+            <li class="bold">Concession: $15</li>
+        </ul>
+
+        <p class="italics">Concession available to persons in receipt of Centrelink pension card. Family membership available to a group of two adults and three persons under the age of 18 all of whom reside at the same address.</p>
+
+        <fieldset id="areas">
+            <legend id="areaLegend">Payment Options:</legend>
+            <input type="radio" name="cash" value="cash"> Cash
+            <input type="text" id="lname" name="dob" placeholder="Money in $...">
+            <br>
+            <input type="radio" name="cash" value="cash"> Cheque
+            <input type="text" id="lname" name="dob" placeholder="Money in $...">
+            <br>
+            <input type="radio" name="cash" value="cash"> Direct Debit to: NQ Ensembles Inc.  BSB 034 222  Account: 17 3033 <i class="italics">(Please include family name as payment reference)</i>
+            <br>
+        </fieldset>
+
+        <p>How can you help the Orchestra?</p>
+        <fieldset id="areas">
+            <legend id="areaLegend">I am interested in:</legend>
+            <input type="checkbox" name="cash" value="cash"> Playing in the Orchestra or Ensembles
+            <br>
+            <input type="checkbox" name="cash" value="cash"> Management/Administration
+            <br>
+            <input type="checkbox" name="cash" value="cash"> Player Support
+            <br>
+            <input type="checkbox" name="cash" value="cash"> Fundraising
+            <br>
+            <input type="checkbox" name="cash" value="cash"> Marketing/Promotion
+            <br>
+            <input type="checkbox" name="cash" value="cash"> Sponsorship
+            <br>
+            <input type="checkbox" name="cash" value="cash"> Desktop publishing
+            <br>
+        </fieldset>
+
+        <p class="bold">Player Registration</p>
+
+        <label for="fname">Instrument/s Played</label>
+        <input type="text" id="inst" name="instruments" placeholder="Instruments played..">
+
+        <label for="lname">Qualifications</label>
+        <input type="text" id="qual" name="qual" placeholder="Qualifications..">
+
+        <label for="lname">Experience</label>
+        <input type="text" id="exp" name="exp" placeholder="Experience..">
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
 
 </body>
 </html>

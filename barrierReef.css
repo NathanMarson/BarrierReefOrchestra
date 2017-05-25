@@ -100,6 +100,7 @@ li a:hover {
     margin-left:25%;
     margin-top:32px;
     padding:1px 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .italics {
@@ -206,7 +207,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 100%;
-    background-color: #46a7e2;
+    background-color: #3680e2;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -217,7 +218,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #4ebfff;
+    background-color: #46a7e2;
 }
 
 .signup {
@@ -229,3 +230,17 @@ input[type=submit]:hover {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
+.halfLine{
+    width:40%!important;
+    padding: 5px 20px!important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.title{
+    margin-left:20%;
+    margin-top:20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
